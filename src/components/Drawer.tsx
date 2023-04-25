@@ -152,7 +152,7 @@ const Drawer = ({
             text={t("Help")}
             onClick={showHelp}
           />
-          <DrawerItem icon={<FaCog />} text="Settings" onClick={showSettings} />
+          <DrawerItem icon={<FaCog />} text={t("Settings")} onClick={showSettings} />
           <DrawerItem
             icon={<FaGithub />}
             text="GitHub"
